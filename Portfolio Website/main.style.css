@@ -1,0 +1,113 @@
+.main-left {
+    position: relative;
+    margin: auto;
+    margin-top: 3.33vh; /* converted from 30px */
+    height: 100%;
+    width: 34.72vw; /* converted from 500px */
+    height: 50vh;
+    background-image: url('images/Partna.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 0.69vw; /* converted from 10px */
+    align-items: center;
+    float: left;
+    justify-content: center;
+  }
+  
+  .main-right {
+    position: relative;
+    margin: auto;
+    align-items: center;
+    float: right;
+    width: 41.67vw; /* converted from 600px */
+    justify-content: center;
+  }
+  
+  .static-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .static-img {
+    width: 34.72vw; /* converted from 500px */
+    height: 50vh; /* converted from 450px */
+    z-index: 0;
+  }
+  
+  .img_vid {
+    justify-content: center;
+    opacity: 0;
+    position: relative;
+    margin-bottom: 5.56vh; /* converted from 50px */
+    margin-top: -50vh; /* converted from -450px */
+    z-index: 1;
+  }
+  
+  .main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%; /* converted from 900px */
+    height: 100%;
+    padding-top: 5%; /* converted from 50px */
+  }
+  
+  .main_experience {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%; /* converted from 900px */
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  
+    
+.calendly-inline-widget{
+  min-width:45vw;
+  height:56.6vh ;
+  background-color: black;
+}
+
+  @media (max-width: 767px) {
+    .main-left {
+      position: relative;
+      margin: auto;
+      width: 100%; /* converted from 500px */
+      height: 70vh;
+    }
+  .main-right{
+    margin-top: -25%;
+    width: 100%;
+  }
+    .main {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      width: 90%; /* converted from 900px */
+      height: 100%;
+      padding-top: 5%; /* converted from 50px */
+    }
+  
+    .main_experience {
+      display: flex;
+      flex-direction: column;
+      width: 90%; /* converted from 900px */
+      margin: auto;
+      justify-content: space-evenly;
+      align-items: flex-start;
+    }
+    .calendly-inline-widget{
+      width: 100%;
+      height:56.6vh ;
+      background-color: black;
+  }
+    .calendly{
+      width: 100%;
+    }
+  }

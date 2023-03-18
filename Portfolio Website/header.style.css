@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: #000;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%; /* Ensure the header takes up the full width of the body */
+  color: white;
+  border-bottom: 1px solid white;
+  z-index: 1000;
+}
+.siteLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.circle {
+  background-color: #fff;
+  height: 2.26vh;
+  width: 1.27vw;
+  border-radius: 50%;
+  padding: 1.13vh 0.63vw;
+  margin-left: 1.27vw;
+}
+.siteRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header h3 {
+  padding: 2.26vh 1.27vw;
+}

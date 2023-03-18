@@ -1,0 +1,82 @@
+.showcase {
+    margin-top: 5.7vh;
+    font-size: 3.2vw;
+    color: #fff;
+  }
+  .showcase :nth-child(1){
+    margin-top: 3.7vh;
+  }
+  
+  .showcase .light {
+    font-weight: 200;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  
+  .panel {
+    background-size: auto 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    border-radius: 3.2vw;
+    color: #fff;
+    cursor: pointer;
+    flex: .5;
+    margin: 1.1vh;
+    position: relative;
+    transition: flex 0.7s ease-in;
+    -webkit-transition: all 700ms ease-in;
+  }
+  
+  #overlay {
+    border-radius: 3.2vw;
+    position: relative;
+    background-color: white;
+    opacity: 0.5;
+    height: 40vh;
+    z-index: 1;
+  }
+  
+  .panel h3 {
+    font-size: 1.5vw;
+    position: absolute;
+    bottom: 2.3vh;
+    left: 1.3vw;
+    margin: 0;
+    opacity: 0;
+  }
+  
+  .panel.active {
+    flex: 5;
+  }
+  
+  .panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+  }
+  
+
+
+
+  @media (max-width: 776px) {
+    .showcase {
+        margin-top: .7vh;
+        font-size: 6.2vw;
+        text-align: center;
+        color: #fff;
+      }
+    .container {
+      width: 100%;
+    }
+  
+    .panel:nth-of-type(1), .panel:nth-of-type(5) {
+      display: none;
+    }
+  }
+  

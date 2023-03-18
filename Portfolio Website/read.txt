@@ -1,0 +1,59 @@
+<div class="card">
+              <span class="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                </svg>
+              </span>
+              <h4>Product Designer</h4>
+              <p>
+                I am dedicated to providing excellent user experiences 
+                that satisfy both company goals and user expectations.
+              </p>
+                <a href="https://dribbble.com/Bernadel"class = "Explore"> View Dribble</a>
+              <div class="shine"></div>
+              <div class="background">
+                <div class="tiles">
+                  <div class="tile tile-1"></div>
+                  <div class="tile tile-2"></div>
+                  <div class="tile tile-3"></div>
+                  <div class="tile tile-4"></div>
+          
+                  <div class="tile tile-5"></div>
+                  <div class="tile tile-6"></div>
+                  <div class="tile tile-7"></div>
+                  <div class="tile tile-8"></div>
+          
+                  <div class="tile tile-9"></div>
+                  <div class="tile tile-10"></div>
+                </div>
+          
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+              </div>
+            </div>
+
+        <div class = "container">
+            <div class =  "panel" style="background-image:url('images/Supply\ Chain\ UI.png');">
+                <h3> Supply Chain Dashboard </h3>
+            </div>
+            <div class =  "panel" style="background-image:url('images/Komo\ Clone.png');">
+                <h3> Komo Clone </h3>
+            </div>
+            <div class =  "panel active" style="background-image:url('images/P2P\ Banking\ App.png');">
+                <h3> Banking App </h3>
+            </div>
+            <div class =  "panel" style="background-image:url('images/Portfolio\ Website.png');">
+                <h3> Portfolio Website </h3>
+            </div>
+            <div class =  "panel" style="background-image:url('images/Login\ UI.png');">
+                <h3> Login UI </h3>
+            </div>
+        </div>

@@ -1,0 +1,35 @@
+@media (min-width: 768px) and (max-width: 900px) {
+    /* styles for screens with a width between 768px and 900px */
+    .calendly-inline-widget{
+        min-width:45vw;
+        height: 42.6vh ;
+        background-color: black;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 15.78vw);
+        grid-template-rows: repeat(2, 15.78vw);
+        grid-gap: 5vw;
+        grid-row-gap: 5vw;
+        grid-column-gap: 2vw;
+        position: relative;
+        z-index: 1;
+        padding-top: 5%;
+      }
+      .grid-contain {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 42.6vh;
+        margin: auto;
+      }
+      .card h4 {
+        font-weight: 600;
+        font-size: 1vh;
+        line-height: 2;
+      }
+      .main_experience{
+        margin-bottom: 5%;
+      }
+  }
+  
