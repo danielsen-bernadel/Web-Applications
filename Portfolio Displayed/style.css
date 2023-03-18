@@ -1,0 +1,632 @@
+@-webkit-keyframes gradientslide {
+    0%,to {
+        background-position: 0 100%
+    }
+
+    50% {
+        background-position: 100%0
+    }
+}
+
+@-moz-keyframes gradientslide {
+    0%,to {
+        background-position: 0 100%
+    }
+
+    50% {
+        background-position: 100%0
+    }
+}
+
+@keyframes gradientslide {
+    0%,to {
+        background-position: 0 100%
+    }
+
+    50% {
+        background-position: 100%0
+    }
+}
+
+.logo span,figure,footer,header,section {
+    display: block
+}
+
+*,body {
+    transition: all .24s
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+ul {
+    list-style: none
+}
+
+button {
+    border: 0;
+    overflow: auto;
+    outline: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+body {
+    line-height: 1.72;
+    vertical-align: baseline;
+    color: #fff;
+    background: #000
+}
+
+body,h1 {
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-style: normal;
+    font-size: 18px
+}
+
+body,h1 span {
+    font-weight: 400
+}
+
+h1,strong {
+    font-weight: 600
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 80px
+}
+
+.cases,.logo {
+    overflow: hidden
+}
+
+.logo {
+    position: fixed;
+    width: 1040px;
+    top: 160px
+}
+
+.logo span {
+    width: 84px;
+    height: 56px;
+    float: right;
+    -webkit-mask: url()no-repeat center center;
+    mask: url()no-repeat center center;
+    background: #fff;
+    background: linear-gradient(135deg,#fff,rgba(255,255,255,.4),rgba(255,255,255,.1),rgba(255,255,255,.6),rgba(255,255,255,.8),rgba(255,255,255,.4),#fff);
+    background-size: 100% 100%;    
+    object-fit: contain;
+    animation: gradientslide 18s ease infinite;
+    cursor: url(https://www.michieldegraaf.com/assets/images/icon-1px-arrow-up-black.svg),n-resize
+}
+
+.logo span img {
+    object-fit: contain;
+}
+
+header[role=banner] {
+    position: relative;
+    max-width: 560px;
+    margin-top: 160px
+}
+
+header[role=banner] h1 span {
+    display: block;
+    font-weight: 400
+}
+
+header[role=banner] p {
+    margin-top: 40px
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    right: auto!important;
+    position: relative;
+    float: right;
+    margin-top: 5%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .invert {
+    filter: invert(100%);
+  }
+  
+  .btn{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 0 2px 18px rgba(0,0,0,0.115);
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px);
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+
+
+  .btn i{
+    line-height: 30px;
+    font-size: 20px;
+    transition: .2s linear;
+  }
+  
+  .btn:hover i {
+    transform: scale(1.2);
+    color: white;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #000;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+  }
+  
+  .btn:hover::before {
+    animation: aaa .7s 1;
+    top: -10%;
+    left: -10%;
+  }
+  
+  @keyframes aaa {
+    0% {
+      left: -110%;
+      top: 90%;
+    }
+    50% {
+      left: 10%;
+      top: -30%;
+    }
+    100% {
+      top: -10%;
+      left: -10%;
+    }
+  }
+
+.cases {
+    height: auto;
+    margin-top: 80px;
+}
+
+.cases .case {
+    width: 50%;
+
+}
+
+.cases .case.dandotcom img {
+    background: inherit url()no-repeat center center;
+    background-size: 100% 100%;
+    object-fit: contain;
+}
+
+.cases .case.tidal img {
+    background: inherit url()no-repeat center center;
+    background-size: 100% 100%;
+    object-fit: contain;
+}
+
+.about p:nth-child(1),.cases .case:nth-child(1) {
+    margin-top: 0;
+
+}
+
+.cases .case:nth-child(2) {
+    margin-top: 40%
+}
+
+.cases .case:nth-child(odd) {
+    float: right;
+    text-align: right;
+    
+}
+
+.cases .case:nth-child(odd) figure {
+    margin-left: 40px
+}
+
+.cases .case:nth-child(even) {
+    float: left
+}
+
+.cases .case:nth-child(even) figure {
+    margin-right: 40px
+}
+
+.cases .case figure {
+    display: block;
+    max-width: 480px;
+
+}
+
+.cases .case figure img {
+    display: block;
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+    background: inherit url() no-repeat center center;
+    background-size: 100% 100%;
+    object-fit: contain;
+
+}
+
+.cases .case a {
+    display: block;
+    margin: 40px 0 180px
+}
+
+.cases .case a:hover {
+    color: #a4f7ff
+}
+
+.cases .case a i,.cases .case a strong {
+    display: block;
+    font-style: normal
+}
+
+.cases .case a i {
+    opacity: .64
+}
+
+.about {
+    max-width: 800px
+}
+
+.about p {
+    margin-top: 32px
+}
+
+.about .links {
+    margin-top: 40px
+}
+
+.about .links li {
+    margin-top: 8px
+}
+
+.about .links li a {
+    display: inline-block;
+    border-bottom: 1px solid rgba(255,255,255,.8)
+}
+
+.about .links li a:hover {
+    border-color: transparent!important;
+    opacity: 1!important
+}
+
+.about .links li:nth-child(2) a {
+    opacity: .92
+}
+
+.about .links li:nth-child(3) a {
+    opacity: .8
+}
+
+.about .links li:nth-child(4) a {
+    opacity: .64
+}
+
+.about .links li:nth-child(5) a {
+    opacity: .48
+}
+
+.about .links li:nth-child(6) a {
+    opacity: .32
+}
+
+footer[role=contentinfo] {
+    padding: 80px 0;
+    overflow: hidden
+}
+
+footer[role=contentinfo] p {
+    color: rgba(255,255,255,.32)
+}
+
+footer[role=contentinfo] .toggle-menu {
+    position: fixed;
+    z-index: 100;
+    overflow: hidden;
+    width: 1040px;
+    bottom: 80px;
+    right: 80px
+}
+
+footer[role=contentinfo] .toggle-menu .toggle {
+    display: block;
+    float: right;
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+    opacity: .4;
+    text-indent: -999px;
+    transition: all .24s;
+    outline: 0
+}
+
+footer[role=contentinfo] .toggle-menu .toggle:hover {
+    opacity: 1
+}
+
+footer[role=contentinfo] .toggle-menu .toggle.toggle-contrast {
+    background: url(https://www.michieldegraaf.com/assets/images/icon-contrast-1px-black.svg)no-repeat center center
+}
+
+footer[role=contentinfo] .toggle-menu .toggle.toggle-type {
+    background: url(https://www.michieldegraaf.com/assets/images/icon-type-1px-black.svg)no-repeat center center
+}
+
+footer[role=contentinfo] .toggle-menu .toggle.toggle-color {
+    background: url(https://www.michieldegraaf.com/assets/images/icon-rainbow-1px-black.svg)no-repeat center center
+}
+
+a,span {
+    text-decoration: none;
+    transition: all .24s;
+    white-space: nowrap
+}
+
+a {
+    color: #fff;
+    cursor: pointer
+}
+
+a.link {
+    font-weight: 600;
+    color: #a4f7ff;
+    display: inline-block;
+    border-bottom: 1px solid #a4f8ff
+}
+
+a.link:hover {
+    color: #a3f7ff;
+    border-color: transparent!important
+}
+
+@media screen and (max-width: 1200px) {
+    .logo,footer[role=contentinfo] .toggle-menu {
+        position:relative;
+        width: auto
+    }
+
+    .logo span {
+        position: fixed;
+        right: 80px;
+        float: none
+    }
+
+    footer[role=contentinfo] .toggle-menu .toggle {
+        position: fixed;
+        float: none;
+        margin: 0;
+        bottom: 80px
+    }
+
+    footer[role=contentinfo] .toggle-menu .toggle.toggle-contrast {
+        right: 80px
+    }
+
+    footer[role=contentinfo] .toggle-menu .toggle.toggle-color {
+        right: 120px
+    }
+
+    footer[role=contentinfo] .toggle-menu .toggle.toggle-type {
+        right: 160px
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .cases .case:nth-child(odd) figure {
+        margin-left:24px
+    }
+
+    .cases .case:nth-child(even) figure {
+        margin-right: 24px
+    }
+
+    footer[role=contentinfo] .toggle-menu .toggle {
+        bottom: 40px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        top:120px;
+        padding-bottom: 80px
+    }
+
+    .logo span {
+        position: relative;
+        right: 0
+    }
+
+    header[role=banner] {
+        margin-top: 120px
+    }
+
+    .cases .case {
+        width: 75%;
+        margin: 0!important
+    }
+
+    .cases .case figure {
+        width: 100%;
+        margin: 0!important
+    }
+
+    .cases .case a {
+        margin: 40px 0 80px
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .cases .case {
+        width:80%
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cases .case {
+        width:100%
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cases .case a,h1,p,ul {
+        font-size:16px
+    }
+
+    .container {
+        padding: 0 40px
+    }
+
+    .logo {
+        top: 40px;
+        padding-bottom: 40px
+    }
+
+    .cases,header[role=banner] {
+        margin-top: 40px
+    }
+
+    header[role=banner] p {
+        margin-top: 32px
+    }
+
+    footer[role=contentinfo] {
+        padding: 40px 0
+    }
+
+    footer[role=contentinfo] p {
+        float: none
+    }
+
+    footer[role=contentinfo] .toggle-menu {
+        bottom: auto;
+        right: auto
+    }
+
+    footer[role=contentinfo] .toggle-menu .toggle {
+        bottom: auto;
+        right: auto!important;
+        position: relative;
+        float: left;
+        margin: 24px 16px 0 0
+    }
+}
+
+body.contrast {
+    background: #fbf5ed;
+    color: #000
+}
+
+body.contrast a {
+    color: #000
+}
+
+body.contrast a.link {
+    color: #001aff;
+    border-color: #001aff
+}
+
+body.contrast .logo span {
+    background: linear-gradient(135deg,#000,rgba(0,0,0,.4),rgba(0,0,0,.1),rgba(0,0,0,.6),rgba(0,0,0,.8),rgba(0,0,0,.4),#000);
+    background-size: 640% 640%
+}
+
+body.contrast .cases .case a:hover {
+    color: #001aff
+}
+
+body.contrast .about .links li a {
+    border-bottom: 1px solid #000
+}
+
+body.contrast footer[role=contentinfo] p {
+    color: rgba(0,0,0,.5)
+}
+
+body.contrast footer[role=contentinfo] .toggle-menu .toggle.toggle-color {
+    background: url(https://www.michieldegraaf.com/assets/images/icon-rainbow-1px-white.svg)no-repeat center center
+}
+
+body.contrast footer[role=contentinfo] .toggle-menu .toggle.toggle-contrast {
+    background: url(https://www.michieldegraaf.com/assets/images/icon-contrast-1px-white.svg)no-repeat center center
+}
+
+body.contrast footer[role=contentinfo] .toggle-menu .toggle.toggle-type {
+    background: url(https://www.michieldegraaf.com/assets/images/icon-type-1px-white.svg)no-repeat center center
+}
+
+body.serif,body.serif h1 {
+    font-family: "Martel",source-serif-4,freight-text-pro,Georgia,Times,serif;
+    font-style: normal
+}
+
+body.serif,body.serif h1 span {
+    font-weight: 300
+}
+
+body.serif a.link,body.serif h1,body.serif strong {
+    font-weight: 600
+}
+
+body.color {
+    background: #223126!important
+}
+
+body.color,body.color a {
+    color: #feffce!important
+}
+
+body.color a.link {
+    border-color: #efff44!important
+}
+
+body.color .about .links li a:hover,body.color a.link:hover {
+    border-color: transparent!important
+}
+
+body.color .logo span {
+    background: linear-gradient(135deg,#feffce,rgba(254,255,206,.4),rgba(254,255,206,.1),rgba(254,255,206,.6),rgba(254,255,206,.8),rgba(254,255,206,.4),#feffce)!important;
+    background-size: 640% 640%!important;
+    animation: gradientslide 18s ease infinite!important
+}
+
+body.color .cases .case a:hover,body.color a.link {
+    color: #efff44!important
+}
+
+body.color .about .links li a {
+    border-bottom: 1px solid #feffce!important
+}
+
+body.color footer[role=contentinfo] p {
+    color: rgba(254,255,206,.5)!important
+}
+
+body.color footer[role=contentinfo] .toggle-menu .toggle.toggle-color {
+    background: url(https://www.michieldegraaf.com/assets/images/icon-rainbow-1px-green.svg)no-repeat center center
+}
+
+body.color footer[role=contentinfo] .toggle-menu .toggle.toggle-contrast {
+    background: url(https://www.michieldegraaf.com/assets/images/icon-contrast-1px-green.svg)no-repeat center center
+}
+
+body.color footer[role=contentinfo] .toggle-menu .toggle.toggle-type {
+    background: url(https://www.michieldegraaf.com/assets/images/icon-type-1px-green.svg)no-repeat center center
+}
