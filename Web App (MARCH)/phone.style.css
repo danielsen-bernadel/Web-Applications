@@ -1,0 +1,376 @@
+
+    @media (max-width: 700px) {
+        *{
+            font-family: 'Plus Jakarta Sans', sans-serif;
+          }
+          
+          body{
+            background-color: #F3F3F1;
+          }
+          
+        
+        /* Header Component */
+        html{
+            height: 100vh;
+        }
+        .admin-header{
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .admin-header-top{
+            width: 100%;
+            background-color: #0F1300;
+            padding: .5% 0%;
+            display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+        }
+        
+        .admin-header-top-right{
+              margin-right: 2.5%;
+        }
+        .admin-header-top-left{
+              margin-left: 2.5%;
+        }
+        
+        .admin-header-top-leftImage img{
+            width: 5vh;
+        }
+        .admin-header-top-right-btn{
+              display: flex;
+              align-items: center;
+              background-color: #07D2BE;
+              width: fit-content;
+              padding: 0% 20%;
+              margin-right: 5%;
+              justify-content: space-between;
+              font-size: 2vh;
+              font-weight: 500;
+              line-height: 1vh;
+              color: white;
+              border-radius: 50px;
+        }
+        
+        .admin-header-top-right-btn:hover{
+          color: black;
+          background-color: #fff;
+          scale: 1.5;
+          text-transform: uppercase;
+        
+        
+        }
+        
+        .admin-header-top-right-btn p{
+          padding-left: 10%;
+        }
+        
+        .admin-header-bottom{
+            width: 100%;
+            background-color: #0F1300;
+        }
+        
+        .admin-header-bottom-menu{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          border-bottom:  1.5px dashed white;
+          padding: 1% 0%;
+        }
+        
+        .admin-header-bottom-menuItem{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          color: #C2C2C2;
+          padding: 0%;
+        }
+        
+        .admin-header-bottom-menuIcon, .admin-header-bottom-menuText p{
+          padding: 0;
+          margin: 0;
+          line-height: fit-content;
+          font-size: 5vw;
+        }
+        
+        .admin-header-bottom-menuItem:hover{
+            color: #07D2BE;
+            scale: 1.25
+        }
+        
+        .admin-header-bottom-menuIcon{
+           display: flex;
+           align-items: flex-end;
+           padding-bottom: 5%;
+        
+        }
+        /* Analytics Component */
+        .admin-analytics-whole{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+        }
+        .admin-lifetime-analytics{
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+          }
+          .admin-lifetime-analytics-header{
+            display: flex;
+            margin: 0% auto;
+            padding: 0;
+            justify-content: center;
+            text-align: center;
+          }
+          .admin-lifetime-analytics-header h2{
+            padding: 0%;
+            font-size: 2.5vh;
+            line-height: 3vh;
+        
+          }
+          .admin-lifetime-analytics-content{
+            display: flex;
+            justify-content: center;
+            margin-top: -5%;
+            width: 100%;
+          }
+          
+          .admin-lifetime-analytics-content-grid-card-header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            margin: auto;
+            font-size: 1.5vh;
+          }
+        
+          .admin-lifetime-analytics-content-grid-card-header h3{
+            width: 100%;
+            padding: 2.5% 0;
+            margin: auto;
+            font-size: 1.5vh;
+          }
+          
+          .admin-lifetime-analytics-content-grid-card-header-circle{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: #000;
+            border-radius: 50%;
+          }
+          
+          .admin-lifetime-analytics-content-grid-card-header-text{
+            padding-left: 5%;
+          }
+          
+          .admin-lifetime-analytics-content-grid {
+            display: grid;
+            grid-template-columns: .5fr .5fr;
+            grid-template-rows: auto;
+            gap: 3vw;
+            width: 90%;
+            padding: 0%;
+            margin: 2.5% auto;
+            justify-content: center;
+          }
+          
+          .admin-lifetime-analytics-content-grid-card{
+            display: flex;
+            flex-direction: column;
+            padding: 5%;
+            height: fit-content;
+            margin: 0;
+          }
+          
+          .admin-lifetime-analytics-content-grid-card-body{
+            display: flex;
+            font-size: 2vh;
+            margin: auto;
+            padding: 2.5% 0%;
+          }
+          
+          .admin-analytics{
+            margin: auto;
+            margin-top: 10%;
+            padding: auto;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+          }
+          
+          .admin-analytics-left{
+            display: flex;
+            padding-left: 5%;
+            align-items: center;
+          }
+          
+          .admin-analytics-leftText{
+            font-size: 2vh;
+          }
+          
+          .admin-analytics-leftIcon{
+            font-size: 1vh;
+            margin-left: 5%;
+            padding: 1vw;
+            border-radius: 50%;
+            background-color: #07D2BE;
+            height: fit-content;
+            display: flex;
+            color: white;
+          }
+          
+          .admin-analytics-leftIcon:hover{
+            background-color: transparent;
+            color: black;
+            scale: 1.5;
+          }
+          
+          .admin-analytics-right{
+            display: flex;
+            padding-right: 5%;
+            align-items: center;
+          }
+          
+          .admin-analytics-rightIcon{
+            font-size: 2vh;
+            padding: .5vw;
+            border-radius: 25%;
+            display: flex;
+            align-items: center;
+            color: black;
+          }
+          
+          .admin-analytics-rightIcon:hover{
+            background-color: transparent;
+            color: black;
+          }
+        
+          /* Button Component*/
+          .main-middle{
+            display: flex;
+            margin: auto;
+            width: 100%;
+            padding: 5% 0%;
+            justify-content: center;
+          }
+          
+          .main-middle-btn{
+                display: flex;
+                align-items: center;
+                background-color: #07D2BE;
+                min-width: 40vw;
+                padding: 0% 5%;
+                justify-content: space-between;
+                font-size: 4vh;
+                font-weight: 500;
+                line-height: 2vh;
+                color: white;
+                border-radius: 50px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+          
+          }
+          
+          .main-middle-btn:hover{
+            color: black;
+            background-color: #fff;
+            scale: 1.25;
+          
+          
+          }
+          
+          .main-middle-btn p{
+            padding-left: 10%;
+            width: 100%;
+          }
+          
+        
+          /* Footer Component*/
+          .admin-footer-row {
+            background: #0F1300;
+            border-top: 3px dashed #07D2BE;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2% 2.5%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
+          
+          
+          
+          
+          .admin-footer-middle-btn{
+                display: flex;
+                align-items: center;
+                background-color: #07D2BE;
+                width: fit-content;
+                padding: 0vw 3.5vw;
+                margin: 0;
+                justify-content: space-between;
+                font-size: 2vh;
+                font-weight: 500;
+                line-height: 2.5vh;
+                color: white;
+                border-radius: 5.0px;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+          
+          }
+          
+          .admin-footer-middle-btn:hover{
+            color: black;
+            background-color: #fff;
+            scale: 1.1;
+            text-transform: uppercase;
+          
+          
+          }
+          
+          .admin-footer-middle-btn p{
+            padding: 0;
+            padding-left: 10%;
+          }
+          
+          .admin-footer-side{
+            display:flex;
+            align-items: center;
+          }
+          
+          .admin-footer-side-btn{
+                display: flex;
+                align-items: center;
+                background-color: #07D2BE;
+                width: fit-content;
+                padding: 2vh;
+                justify-content: space-between;
+                font-size: 1.5vh;
+                font-weight: 500;
+                line-height: 1vh;
+                color: white;
+                border-radius: 50%;
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+          
+          }
+          
+          .admin-footer-side-btn:hover{
+            color: black;
+            background-color: #fff;
+            scale: 1.5;
+            text-transform: uppercase;
+          
+          
+          }
+      }
+  

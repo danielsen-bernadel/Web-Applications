@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.1/css/all.css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">             
+        <script src="https://kit.fontawesome.com/5f0186056d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="Logo" onclick="redirectToHome()" style="color: white"></div>
+            <div class="dropdown">
+                <div onclick="toggledrop(1)">
+                    <button class="centerbtns" id="dpd1">Discover</button>
+                </div>
+                <div class="dropdown-content" id="dpc1">
+                  <a href="discover1.html">Analyze Spending</a>
+                  <a href="#">Saving Made Simple</a>
+                  <a href="#">Grow Tax Savings</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="centerbtns" id="dpd2" onclick="redirectToBlog()">Learn</button>
+                <div class="dropdown-content" id="dpc2">
+                  <a href="#">TaxMe Blog</a>
+                  <a href="#">TaxMe Guides</a>
+                </div>
+              </div>
+            <div class="authbtns">
+                <button>Log in</button>
+                <button>Sign up free</button>
+            </div>
+        </header>
+    <div class="main">
+        <div class="mainleft">
+            <h1>
+                <span class="line1">No Clutter.</span><br/>
+                <span class="line2">No Hassle.</span><br/>
+                <span class="line3">Just Receipts!</span>
+              </h1>              
+            <h2>Join 30M+ people using tools like TaxMe to save during tax season. One mail to help you manage everything you spend and give from your business lunches to vacations and other deductionable expenses.</h2>
+            <div class="quick_sign">
+                <form>
+                    <div class="quisi">
+                        <input type="text" id="username" name="username" placeholder="yourname">
+                        <label for="username">@tax.me</label>
+                    </div>
+                    <button type="submit">Claim your TaxMe</button>
+                </form>
+            </div>
+        </div>
+        <div class=mainright>
+        </div>
+    </div>
+
+    <div class="center-text">
+        <div id="cgrid">
+        <div class="center-grid">
+            <div class="ben-card1">
+              <p> Seamlessly connect your TaxMe with the tools you already use.</p>
+            </div>
+            <div class="ben-card1">
+              <p> Customize your TaxMe to match your brand. Make it feel like you.</p>
+            </div>
+            <div class="ben-card1" id="bencar">
+              <p> Manage, update and set budgets with our quick, easy editor. </p>
+            </div>
+        </div>
+        </div>
+        <h1> The fast, friendly and powerful reciept collection tool. </h1>
+        <button> Claim your TaxMe </button>
+    </div>
+    
+    <div class="discovercards">
+        <div class="disc" id="disc1">
+            <a href="#">Analyze spending in limitless ways with TaxMe.</a>
+        </div>
+        <div class="disc_next" id="disc1">
+            <a href="#">Store reciepts and track spending. Saving made simple.</a>
+        </div>
+        <div id="disc2">
+            <a href="#">Grow tax savings by unifying reciepts in one place.</a>
+        </div>
+    </div>
+
+    <div class="ques_con">
+        <div class="quesa_title">
+        <h2> Got Questions? </h2>
+        </div>
+       <div class="quesa">
+         <div class="quesic toggle-ans" onclick="toggleAns(1)">
+          <i id="icon1"class="fa-sharp fa-solid fa-circle-arrow-down fa-xl toggle-ans"></i>
+         </div>
+         <div class="que">
+        <div class="ques">
+        <h4> Why do I need a link in bio tool? </h4>
+        </div>
+        <div class="ans" id="ans1">
+          <p> some answer </p>
+        </div>
+        </div>
+            </div>
+        
+        <div class="quesa">
+         <div class="quesic toggle-ans" onclick="toggleAns(2)">
+          <i id="icon2"class="fa-sharp fa-solid fa-circle-arrow-down fa-xl toggle-ans"></i>
+         </div>
+         <div class="que">
+        <div class="ques">
+        <h4> Why do I need a link in bio tool? </h4>
+        </div>
+        <div class="ans" id="ans2">
+          <p> some answer </p>
+        </div>
+        </div>
+            </div>
+      <div class="quesa">
+         <div class="quesic toggle-ans" onclick="toggleAns(3)">
+          <i id="icon3"class="fa-sharp fa-solid fa-circle-arrow-down fa-xl toggle-ans"></i>
+         </div>
+         <div class="que">
+        <div class="ques">
+        <h4> Why do I need a link in bio tool? </h4>
+        </div>
+        <div class="ans" id="ans3">
+          <p> some answer </p>
+        </div>
+        </div>
+            </div>
+        <div class="quesa">
+         <div class="quesic toggle-ans" onclick="toggleAns(4)">
+          <i id="icon4"class="fa-sharp fa-solid fa-circle-arrow-down fa-xl toggle-ans"></i>
+         </div>
+         <div class="que">
+        <div class="ques">
+        <h4> Why do I need a link in bio tool? </h4>
+        </div>
+        <div class="ans" id="ans4">
+          <p> some answer </p>
+        </div>
+        </div>
+            </div>
+        <div class="quesa">
+         <div class="quesic toggle-ans" onclick="toggleAns(5)">
+          <i id="icon5"class="fa-sharp fa-solid fa-circle-arrow-down fa-xl toggle-ans"></i>
+         </div>
+         <div class="que">
+        <div class="ques">
+        <h4> Why do I need a link in bio tool? </h4>
+        </div>
+        <div class="ans" id="ans5">
+          <p> some answer </p>
+        </div>
+        </div>
+            </div>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
